@@ -40,7 +40,7 @@ public:
 	{
 		debug.nospace() << "("
 			<< "Card(" << &card << "), "
-			<< card.suitName().toStdString() << ", "
+			<< card.suitName() << ", "
 			<< card.m_rank
 			<< ")";
 
