@@ -108,6 +108,10 @@
   <ItemGroup>
     <QtMoc Include="source\GameWindow.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Card.hpp" />
+    <ClInclude Include="source\Deck.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />

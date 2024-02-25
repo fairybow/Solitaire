@@ -35,4 +35,12 @@
       <Filter>Source</Filter>
     </QtMoc>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Card.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Deck.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
