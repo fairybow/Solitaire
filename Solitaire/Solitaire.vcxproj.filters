@@ -11,11 +11,17 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{2c42fb08-dea9-4c41-b071-617e0a9aaae9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Notes">
+      <UniqueIdentifier>{f6dbf10f-39da-48b0-a269-b4f440c9a935}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
     <None Include="..\.gitignore" />
     <None Include="cpp.hint" />
+    <None Include="notes\To-do.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resources\Resources.rc">

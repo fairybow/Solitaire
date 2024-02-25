@@ -92,6 +92,7 @@
     <None Include="..\.gitignore" />
     <None Include="..\README.md" />
     <None Include="cpp.hint" />
+    <None Include="notes\To-do.md" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resources\Resources.rc" />
